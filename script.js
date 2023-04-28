@@ -44,7 +44,7 @@ window.onscroll=()=>{
 $("#submit-form").submit((e) => {
     e.preventDefault();
     $.ajax({
-      url: "https://script.google.com/macros/s/AKfycbxDkQr5Jm9jjOILStMI9IR8JCdgTnX4DqTQLGAsaVAzFWfNz9q57jqR7KBpB3cu41Yb/exec",
+      url: "https://script.google.com/macros/s/AKfycbweTco2Mb5VWuGj8mS5bHkJORyS_5r8xJF7ZD9Z-V5aYJ6bJJIDm4sXM97TMvoGe6HB/exec",
       data: $("#submit-form").serialize(),
       method: "post",
       success: function (response) {
