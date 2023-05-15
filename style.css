@@ -753,7 +753,7 @@ span {
   .projects .pro-content .card {
     
     width: calc(33% - 25px);
-    height: 22.5rem;
+    height: auto;
     background:#082133;
     padding: 5px 15px;
     text-align: center;
@@ -785,9 +785,12 @@ span {
     margin: 10px 0 7px 0;
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 916px) {
     .projects .pro-content .card {
-      width: calc(30% - 10px); /* Two cards per row */
+        width: calc(100% - 2rem);
+        max-width: none; /* Two cards per row */
+        height: auto;
+        margin: 1rem auto;
     }
     .projects .pro-content {
       justify-content: space-around; /* Adjust the spacing between items */
