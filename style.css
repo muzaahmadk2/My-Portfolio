@@ -793,7 +793,7 @@ span {
         margin: 1rem auto;
     }
     .projects .pro-content {
-      justify-content: space-around; /* Adjust the spacing between items */
+      justify-content: center; /* Adjust the spacing between items */
     }
   }
 
